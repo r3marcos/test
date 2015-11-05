@@ -17,9 +17,15 @@
         Hardeep Shoker 
     </author>
 <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
-<!-- Allow links to example.com -->
-<!-- Wildcards are allowed for the protocol, as a prefix
-     to the host, or as a suffix to the path -->
-<allow-navigation href="http://192.168.0.132" />
+ <!-- Allow links to example.com -->
+ <!-- Wildcards are allowed for the protocol, as a prefix-->
+ <!--    to the host, or as a suffix to the path -->
+ <!--<allow-navigation href="http://192.168.0.132" />  -->
+ <!--<allow-navigation href="*://*.example.com/*" />  -->
+<allow-navigation href="*" />
+<!-- The above is equivalent to these three declarations 
+<allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
+<allow-navigation href="data:*" />  -->
 
 </widget>
