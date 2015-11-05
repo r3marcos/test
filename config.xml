@@ -18,6 +18,8 @@
     </author>
 <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
 <!-- Allow links to example.com -->
-<allow-navigation href="http://192.168.0.132" />
+<!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+<allow-navigation href="*://*:*@192.168.0.132/*" />
 
 </widget>
