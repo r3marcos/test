@@ -1,9 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title>Arduino i/o</title>
-    </head>
-    <body>
-<meta http-equiv="refresh" content="0; url=http://YXJkdWlubzphcmR1aW5v@192.168.0.132" />
-    </body>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+
+<b>IP </br>
+<input name="ipTxt" type="text" id="ipTxt" class="field" />   
+        
+<input type="submit" name="goBtn" value="OK                           " id="goBtn" class="btn" onclick="javascript:SubmitFrm()" />
+<script type="text/javascript">
+    function SubmitFrm(){
+
+
+        var ipTxt = document.getElementById("ipTxt").value;
+
+        window.location ="http://" + ipTxt;
+    }
+</script>
+</body>
 </html>
