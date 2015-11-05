@@ -18,6 +18,6 @@
     </author>
 <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" version="1.1.1" />
 <!-- Allow links to example.com -->
-<allow-navigation href="http://192.168.0.132" />
+<allow-navigation href="http://arduino:arduino@192.168.0.132" />
 
 </widget>
