@@ -6,6 +6,10 @@
     <body>
         <h1>Arduino SD Card Page with Link</h1>
         <p>Go to <a href="http://www.google.es">page 2</a>.</p>
-        <a onclick="loadURL('http://www.domain.com')" href="#">Url</a>
+        
+        function loadURL(url){ 
+        navigator.app.loadUrl(url, { openExternal:true }); 
+        } 
+        <a onclick="loadURL('http://www.google.com')" href="#">Url</a>
     </body>
 </html>
